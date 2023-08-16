@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 
-void reverseWords(char *str) {
+void wordrev(char *str) {
     int length = strlen(str);
     int start = 0;
 
@@ -37,7 +37,7 @@ int main() {
     printf("Input: ");
     scanf("%[^\n]", input);
 
-    reverseWords(input);
+    wordrev(input);
 
     printf("Output: %s\n", input);
 
